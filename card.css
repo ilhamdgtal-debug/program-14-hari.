@@ -41,8 +41,16 @@ header p {
 section {
     margin: 30px 0;
     padding: 20px;
-    background: rgba(0,71,179,0.05);
-    border-radius: 10px;
+    background: rgba(0, 71, 179, 0.15); /* biru soft, terlihat di HP */
+    border: 1.5px solid rgba(0, 71, 179, 0.25); /* border biru muda */
+    border-radius: 12px;
+    backdrop-filter: blur(2px);
+    transition: 0.3s;
+}
+
+section:hover {
+    background: rgba(0, 71, 179, 0.22); /* sedikit lebih biru saat hover */
+    border-color: rgba(0, 120, 255, 0.45);
 }
 
 section h2 {
