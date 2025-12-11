@@ -81,6 +81,19 @@ li {
     background-color: #0066ff;
 }
 
+.btn-outline, .btn-filled 
+{
+
+
+width: 197px;
+height: 67px;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23px;
+text-align: center;    
+
+
 footer {
     text-align: center;
     padding: 20px;
