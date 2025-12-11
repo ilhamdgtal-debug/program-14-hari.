@@ -65,20 +65,25 @@ li {
     margin-bottom: 5px;
 }
 .btn {
-    background-color: #0047b3;
+    background-color: #0047b3;       /* biru dasar */
     color: #fff;
     padding: 8px 14px;
-    border-radius: 8px;
-    margin-top: 20px;
+    border-radius: 10px;
     font-weight: bold;
-    display: inline-block;   /* tombol jadi kecil */
+    display: inline-block;
+    margin: 8px;
+    transition: 0.25s ease;          /* animasi halus */
     text-align: center;
-    transition: 0.3s;
+    border: 2px solid #0047b3;       /* border biru */
 }
 
 .btn:hover {
-    background-color: #0066ff;
+    background-color: #0074ff;       /* biru lebih terang saat hover */
+    border-color: #0074ff;           /* border ikut terang */
+    transform: scale(1.05);          /* tombol sedikit membesar */
+    box-shadow: 0 0 12px rgba(0,115,255,0.6);  /* efek glow */
 }
+
 footer {
     text-align: center;
     padding: 10px;
