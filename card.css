@@ -6,16 +6,13 @@
     font-family: 'Arial', sans-serif;
 }
     
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+
 }
 
 /* Background granit full, aman untuk HP */
 body {
     background:
-        linear-gradient(135deg, #dbe9ff, #ffffff),
+        linear-gradient(100deg, #dbe9ff, #ffffff),
         
     
     background-blend-mode: overlay;
