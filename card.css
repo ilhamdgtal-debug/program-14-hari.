@@ -14,13 +14,14 @@ html, body {
 
 /* Background granit full, aman untuk HP */
 body {
-    background: 
-        radial-gradient(circle at 25% 30%, rgba(0, 110, 255, 0.25), transparent 70%),
-        radial-gradient(circle at 75% 80%, rgba(0, 140, 255, 0.25), transparent 70%),
-        linear-gradient(135deg, #d8e7ff, #ffffff);
+    background:
+        linear-gradient(135deg, #dbe9ff, #ffffff),
+        radial-gradient(circle at 20% 30%, rgba(0, 110, 255, 0.25), transparent 70%),
+        radial-gradient(circle at 80% 80%, rgba(0, 140, 255, 0.28), transparent 70%);
+    background-blend-mode: overlay;
     background-size: cover;
-    background-repeat: no-repeat;
 }
+
 
 
 a {
@@ -56,6 +57,8 @@ section {
     border: 1.5px solid rgba(0, 71, 179, 0.25); /* border biru muda */
     border-radius: 12px;
     backdrop-filter: blur(2px);
+    transition: 0.3s;
+    -webkit-backdrop-filter: blur(2px); /* fix iPhone */
     transition: 0.3s;
 }
 
