@@ -75,6 +75,8 @@ li {
     transition: 0.3s;
     display: flex;
     text-align: center;
+     display: flex;
+    justify-content: space-between;
 }
 
 .btn:hover {
