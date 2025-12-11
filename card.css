@@ -16,8 +16,8 @@ html, body {
 body {
     background:
         linear-gradient(135deg, #dbe9ff, #ffffff),
-        radial-gradient(circle at 20% 30%, rgba(0, 110, 255, 0.25), transparent 70%),
-        radial-gradient(circle at 80% 80%, rgba(0, 140, 255, 0.28), transparent 70%);
+        
+    
     background-blend-mode: overlay;
     background-size: cover;
 }
@@ -63,7 +63,7 @@ section {
 }
 
 section:hover {
-    background: rgba(0, 71, 179, 0.22); /* sedikit lebih biru saat hover */
+
     border-color: rgba(0, 120, 255, 0.45);
 }
 
