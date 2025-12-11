@@ -64,19 +64,16 @@ ul {
 li {
     margin-bottom: 5px;
 }
-
 .btn {
-    
     background-color: #0047b3;
     color: #fff;
-    padding: 5px 10px;
+    padding: 8px 14px;
     border-radius: 8px;
     margin-top: 20px;
-    transition: 0.3s;
-    display: flex;
+    font-weight: bold;
+    display: inline-block;   /* tombol jadi kecil */
     text-align: center;
-     display: flex;
-    justify-content: space-between;
+    transition: 0.3s;
 }
 
 .btn:hover {
